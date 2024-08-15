@@ -4,7 +4,6 @@ EXE = snake
 
 all: snake.cpp
 	$(CXX) $(FLAGS) snake.cpp -o $(EXE)
-	./$(EXE)
 
 run: $(EXE)
 	./$(EXE)
