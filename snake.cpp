@@ -80,8 +80,6 @@ int main() {
     // Draw a box
     wborder(win, ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ');
     // Ascii art
-    // TODO: Format raw string with multiple macros
-
     // Copyright (c) Jennifer E. Swofford
     mvwaddstr(win, 1, 0, R"(
                                       __    __    __    __                                         
