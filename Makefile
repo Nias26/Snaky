@@ -1,5 +1,5 @@
 CXX = g++
-FLAGS = -Wall -lncursesw
+FLAGS = -Wall -lncurses
 EXE = snake
 
 all: snake.cpp
