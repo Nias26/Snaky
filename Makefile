@@ -4,7 +4,7 @@ EXE = snake
 
 all: snake.cpp
 	$(CXX) $(FLAGS) snake.cpp -o $(EXE)
-	./%(EXE)
+	./$(EXE)
 
 build: snake.cpp
 	$(CXX) $(FLAGS) snake.cpp -o $(EXE)
