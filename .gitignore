@@ -1,0 +1,3 @@
+# Ignore local compiled files
+snake
+*.o
